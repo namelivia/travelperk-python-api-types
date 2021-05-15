@@ -5,4 +5,4 @@
 </p>
 
 ## About
-Python types for the TravelPerk API entities.
+Python types for the TravelPerk API entities. This is a WIP and by no means usable yet!
