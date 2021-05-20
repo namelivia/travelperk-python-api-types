@@ -1,7 +1,13 @@
-from src.cost_centers.cost_centers.cost_centers import CostCenters
-from src.cost_centers.cost_centers.cost_center_detail import CostCenterDetail
-from src.cost_centers.cost_centers.cost_center import CostCenter
-from src.cost_centers.cost_centers.bulk_update_response import BulkUpdateResponse
+from travelperk_python_api_types.cost_centers.cost_centers.cost_centers import (
+    CostCenters,
+)
+from travelperk_python_api_types.cost_centers.cost_centers.cost_center_detail import (
+    CostCenterDetail,
+)
+from travelperk_python_api_types.cost_centers.cost_centers.cost_center import CostCenter
+from travelperk_python_api_types.cost_centers.cost_centers.bulk_update_response import (
+    BulkUpdateResponse,
+)
 
 
 class TestBuilding:

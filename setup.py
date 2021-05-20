@@ -22,8 +22,6 @@ setup(
         "Programming Language :: Python :: 3.9",
     ],
     keywords="travelperk, api",
-    package_dir={"": "src"},
-    packages=find_packages(where="src"),
     python_requires=">=3.8, <4",
     project_urls={
         "Bug Reports": "https://github.com/namelivia/travelperk-python-api-types/issues",
