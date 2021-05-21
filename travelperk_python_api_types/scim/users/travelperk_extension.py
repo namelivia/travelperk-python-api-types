@@ -1,5 +1,5 @@
 from typing import List
-from dataclasses import dataclass
+from pydantic.dataclasses import dataclass
 from .invoice_profile import InvoiceProfile
 from .emergency_contact import EmergencyContact
 

@@ -1,5 +1,5 @@
 from typing import List
-from dataclasses import dataclass
+from pydantic.dataclasses import dataclass
 from .billing_information import BillingInformation
 from .lines import Lines
 from .taxes_summary import TaxesSummary

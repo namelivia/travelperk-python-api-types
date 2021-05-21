@@ -1,5 +1,5 @@
 from typing import List
-from dataclasses import dataclass
+from pydantic.dataclasses import dataclass
 from .category import Category
 from .document import Document
 

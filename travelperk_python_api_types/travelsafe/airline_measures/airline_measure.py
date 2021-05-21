@@ -1,5 +1,5 @@
 from typing import List
-from dataclasses import dataclass
+from pydantic.dataclasses import dataclass
 from .airline import Airline
 from .info_source import InfoSource
 from .safety_measure import SafetyMeasure

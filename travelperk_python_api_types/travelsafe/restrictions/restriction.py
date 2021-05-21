@@ -1,5 +1,5 @@
 from typing import List
-from dataclasses import dataclass
+from pydantic.dataclasses import dataclass
 from .location import Location
 from .requirement import Requirement
 from .info_source import InfoSource

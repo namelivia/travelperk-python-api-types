@@ -1,5 +1,5 @@
 from .manager import Manager
-from dataclasses import dataclass
+from pydantic.dataclasses import dataclass
 
 
 @dataclass

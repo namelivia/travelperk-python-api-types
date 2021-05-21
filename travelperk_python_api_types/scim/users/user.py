@@ -1,5 +1,5 @@
 from typing import List
-from dataclasses import dataclass
+from pydantic.dataclasses import dataclass
 from .name import Name
 from .phone_number import PhoneNumber
 from .meta import Meta
