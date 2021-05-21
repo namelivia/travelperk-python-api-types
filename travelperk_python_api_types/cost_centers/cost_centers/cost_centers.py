@@ -7,5 +7,4 @@ from .cost_center import CostCenter
 class CostCenters:
     offset: int
     limit: int
-    total: int
     cost_centers: List[CostCenter]
