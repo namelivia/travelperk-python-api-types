@@ -3,7 +3,7 @@ from pydantic.dataclasses import dataclass
 
 @dataclass
 class User:
-    fist_name: str
+    first_name: str
     last_name: str
     email: str
     id: int
