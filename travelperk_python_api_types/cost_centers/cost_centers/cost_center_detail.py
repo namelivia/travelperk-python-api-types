@@ -1,6 +1,6 @@
 from typing import List
 from pydantic.dataclasses import dataclass
-from travelperk_python_api_types.users.users.user import User
+from .user import User
 
 
 @dataclass
