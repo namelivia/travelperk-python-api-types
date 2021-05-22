@@ -13,8 +13,6 @@ class User:
     name: Name
     locale: str
     preferred_language: str
-    title: str = None
-    external_id: str = None
     id: str
     groups: List[str]
     active: str
@@ -23,3 +21,5 @@ class User:
     meta: Meta
     enterprise_extension: EnterpriseExtension
     travelperk_extension: TravelperkExtension
+    title: str = None
+    external_id: str = None

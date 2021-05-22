@@ -12,6 +12,6 @@ class User:
     preferred_language: str
     locale: str
     active: bool
-    job_title: str = None
     phone_numbers: List[str]
+    job_title: str = None
     emergency_contact: EmergencyContact = None

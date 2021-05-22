@@ -24,5 +24,5 @@ class Invoice:
     lines: Lines
     taxes_summary: List[TaxesSummary]
     reference: str
-    travelperk_bank_account: TravelperkBankAccount = None
     pdf: str
+    travelperk_bank_account: TravelperkBankAccount = None
