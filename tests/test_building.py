@@ -8,12 +8,13 @@ from travelperk_python_api_types.cost_centers.cost_centers.cost_center import Co
 from travelperk_python_api_types.cost_centers.cost_centers.bulk_update_response import (
     BulkUpdateResponse,
 )
+from travelperk_python_api_types.expenses.invoice_lines.vendor import Vendor
 
 
 class TestBuilding:
     def test_root_entities_are_buildable(self):
         assert type(CostCenters(2, 3, [])) is CostCenters
-        assert type(CostCenterDetail(1, "test", False, 3)) is CostCenterDetail
+        assert type(CostCenterDetail(1, "test", False, [], 3)) is CostCenterDetail
         assert type(CostCenter(1, "test", 3)) is CostCenter
         assert type(BulkUpdateResponse(1)) is BulkUpdateResponse
 
@@ -33,3 +34,4 @@ class TestBuilding:
         )
         assert type(cost_centers) is CostCenters
         assert type(cost_centers.cost_centers[0]) is CostCenter
+        assert type(Vendor("test")) is Vendor
