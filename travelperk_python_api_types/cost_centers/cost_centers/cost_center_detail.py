@@ -1,5 +1,6 @@
 from typing import List
 from pydantic.dataclasses import dataclass
+from travelperk_python_api_types.users.users.user import User
 
 
 @dataclass
@@ -7,6 +8,5 @@ class CostCenterDetail:
     id: str
     name: str
     archived: bool
-    # TODO: Import User once its done
-    # users: List[User]
+    users: List[User]
     const_users: int
