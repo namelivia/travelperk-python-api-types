@@ -9,4 +9,4 @@ class CostCenterDetail:
     name: str
     archived: bool
     users: List[User]
-    const_users: int
+    count_users: int
