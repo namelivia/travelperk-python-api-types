@@ -1,5 +1,5 @@
 from pydantic.dataclasses import dataclass
-from .metada import Metadata
+from .metadata import Metadata
 
 
 @dataclass
