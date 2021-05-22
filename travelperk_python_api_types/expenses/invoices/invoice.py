@@ -1,6 +1,6 @@
 from typing import List
 from pydantic.dataclasses import dataclass
-from .billing_information import BillingInformation
+from travelperk_python_api_types.expenses.billing_information import BillingInformation
 from .lines import Lines
 from .taxes_summary import TaxesSummary
 from .travelperk_bank_account import TravelperkBankAccount
