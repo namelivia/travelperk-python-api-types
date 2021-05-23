@@ -1,5 +1,5 @@
 from pydantic.dataclasses import dataclass
-from .billing_information import BillingInformation
+from travelperk_python_api_types.expenses.billing_information import BillingInformation
 
 
 @dataclass
