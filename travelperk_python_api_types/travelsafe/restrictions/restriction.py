@@ -1,8 +1,8 @@
 from typing import List
 from pydantic.dataclasses import dataclass
-from .location import Location
+from travelperk_python_api_types.travelsafe.location import Location
 from .requirement import Requirement
-from .info_source import InfoSource
+from travelperk_python_api_types.travelsafe.info_source import InfoSource
 
 
 @dataclass
