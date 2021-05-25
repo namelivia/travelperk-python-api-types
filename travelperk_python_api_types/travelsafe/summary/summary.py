@@ -1,9 +1,9 @@
 from typing import List
 from pydantic.dataclasses import dataclass
 from .risk_level import RiskLevel
-from .location import Location
+from travelperk_python_api_types.travelsafe.location import Location
 from .guideline import Guideline
-from .info_source import InfoSource
+from travelperk_python_api_types.travelsafe.info_source import InfoSource
 
 
 @dataclass
