@@ -1,7 +1,7 @@
 from typing import List
 from pydantic.dataclasses import dataclass
 from .airline import Airline
-from .info_source import InfoSource
+from travelperk_python_api_types.travelsafe.info_source import InfoSource
 from .safety_measure import SafetyMeasure
 
 
