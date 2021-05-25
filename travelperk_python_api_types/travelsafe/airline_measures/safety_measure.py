@@ -1,5 +1,5 @@
 from pydantic.dataclasses import dataclass
-from .category import Category
+from travelperk_python_api_types.travelsafe.category import Category
 
 
 @dataclass
