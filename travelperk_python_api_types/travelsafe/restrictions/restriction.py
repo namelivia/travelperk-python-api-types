@@ -7,7 +7,6 @@ from travelperk_python_api_types.travelsafe.info_source import InfoSource
 
 @dataclass
 class Restriction:
-    serial_number: str
     origin: Location
     destination: Location
     authorization_status: str
