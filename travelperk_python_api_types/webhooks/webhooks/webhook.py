@@ -5,7 +5,6 @@ from pydantic.dataclasses import dataclass
 @dataclass
 class Webhook:
     id: str
-    enabled: bool
     name: str
     url: str
     secret: str
