@@ -1,0 +1,3 @@
+#!/bin/bash
+pipenv run pytest --cov-report=xml --cov=travelperk_python_api_types && \
+pipenv run codecov --commit=$1 -t $2
