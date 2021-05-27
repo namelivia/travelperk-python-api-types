@@ -1,4 +1,5 @@
-# travelperk-python-api-types [![tag](https://img.shields.io/github/tag/namelivia/travelperk-python-api-types.svg)](https://github.com/namelivia/travelperk-python-api-types/releases) [![build](https://github.com/namelivia/travelperk-python-api-types/actions/workflows/build.yml/badge.svg)](https://github.com/namelivia/travelperk-python-api-types/actions/workflows/build.yml) [![codecov](https://codecov.io/gh/namelivia/travelperk-python-api-types/branch/main/graph/badge.svg?token=NlsLE3qD4V)](https://codecov.io/gh/namelivia/travelperk-python-api-types)
+# travelperk-python-api-types
+[![tag](https://img.shields.io/github/tag/namelivia/travelperk-python-api-types.svg)](https://github.com/namelivia/travelperk-python-api-types/releases) [![build](https://github.com/namelivia/travelperk-python-api-types/actions/workflows/build.yml/badge.svg)](https://github.com/namelivia/travelperk-python-api-types/actions/workflows/build.yml) [![codecov](https://codecov.io/gh/namelivia/travelperk-python-api-types/branch/main/graph/badge.svg?token=NlsLE3qD4V)](https://codecov.io/gh/namelivia/travelperk-python-api-types)
  [![Lint](https://github.com/namelivia/travelperk-python-api-types/actions/workflows/black.yml/badge.svg)](https://github.com/namelivia/travelperk-python-api-types/actions/workflows/black.yml)
 
 <p align="center">
