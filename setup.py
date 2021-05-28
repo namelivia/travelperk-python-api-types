@@ -6,7 +6,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="travelperk-python-api-types",
-    version="1.0.0",
+    version="1.0.1",
     description="Python types for the travelperk API entities",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -23,6 +23,7 @@ setup(
     ],
     keywords="travelperk, api",
     install_requires=["pydantic"],
+    packages=["travelperk_python_api_types"],
     python_requires=">=3.8, <4",
     project_urls={
         "Bug Reports": "https://github.com/namelivia/travelperk-python-api-types/issues",

@@ -11,7 +11,7 @@ Python types for the TravelPerk API entities.
 
 ## Installation
 
-This package is hosted on [PyP](https://pypi.org/project/travelperk-python-api-types), you can install it using any python package manager. 
+This package is hosted on [PyPi](https://pypi.org/project/travelperk-python-api-types), you can install it using any python package manager. 
 
 ```bash
 $ pip install travelperk-python-api-types==1.0.0
