@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 from pydantic.dataclasses import dataclass
 from travelperk_python_api_types.travelsafe.location import Location
 from .requirement import Requirement
@@ -13,7 +13,7 @@ class Restriction:
     summary: str
     details: str
     start_date: str
-    end_date: str
+    end_date: Optional[str]
     updated_at: str
     requirements: List[Requirement]
     info_source: InfoSource
