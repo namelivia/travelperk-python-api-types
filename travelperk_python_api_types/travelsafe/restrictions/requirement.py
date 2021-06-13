@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import List
 from pydantic.dataclasses import dataclass
 from travelperk_python_api_types.travelsafe.category import Category
 from .document import Document
@@ -11,5 +11,5 @@ class Requirement:
     summary: str
     details: str
     start_date: str
-    end_date: Optional[str]
     documents: List[Document]
+    end_date: str = None
