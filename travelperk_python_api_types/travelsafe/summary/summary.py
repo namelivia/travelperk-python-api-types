@@ -14,4 +14,4 @@ class Summary:
     location: Location
     updated_at: str
     guidelines: List[Guideline]
-    info_source: InfoSource
+    info_source: InfoSource = None
