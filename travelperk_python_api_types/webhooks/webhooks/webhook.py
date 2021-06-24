@@ -9,7 +9,6 @@ class Webhook:
     url: str
     secret: str
     enabled: bool
-    status: str
     events: List[str]
     successfully_sent: int
     failed_sent: int

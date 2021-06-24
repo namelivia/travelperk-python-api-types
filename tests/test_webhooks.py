@@ -14,7 +14,6 @@ class TestWebhooks:
                         "url": "https://mycompany/tkwebhook",
                         "secret": "some secret",
                         "enabled": False,
-                        "status": "enabled",
                         "events": ["invoice.issued", "invoiceline.created"],
                         "successfully_sent": 2,
                         "failed_sent": 0,
