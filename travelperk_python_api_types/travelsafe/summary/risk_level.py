@@ -6,3 +6,4 @@ class RiskLevel:
     id: str
     name: str
     details: str
+    data: dict = None
