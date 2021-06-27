@@ -47,7 +47,6 @@ class TestExpenses:
                         "tax_amount": "0E-8",
                         "tax_regime": "STAR",
                         "total_amount": "20.00000000",
-                        "service_location": "Service location",
                         "metadata": {
                             "trip_id": 1687664,
                             "trip_name": "Meeting with German company GmbH",
@@ -188,7 +187,6 @@ class TestExpenses:
                                     "tax_amount": "0E-8",
                                     "tax_regime": "STAR",
                                     "total_amount": "20.00000000",
-                                    "service_location": "Service location",
                                     "metadata": {
                                         "trip_id": 1687664,
                                         "trip_name": "Meeting with German company GmbH",
