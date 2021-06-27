@@ -21,8 +21,8 @@ class Invoice:
     due_date: str
     currency: str
     total: str
-    lines: Lines
     taxes_summary: List[TaxesSummary]
     reference: str
     pdf: str
+    lines: Lines = None
     travelperk_bank_account: TravelperkBankAccount = None
