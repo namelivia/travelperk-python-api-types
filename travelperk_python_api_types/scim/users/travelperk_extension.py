@@ -11,3 +11,4 @@ class TravelperkExtension:
     gender: str = None
     date_of_birth: str = None
     travel_policy: str = None
+    country_or_residence: str = None
