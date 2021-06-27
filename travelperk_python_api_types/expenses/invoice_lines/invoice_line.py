@@ -22,5 +22,3 @@ class InvoiceLine:
     issuing_date: str
     due_date: str
     currency: str
-    service_location: str = None
-    include_breakfast: bool = None

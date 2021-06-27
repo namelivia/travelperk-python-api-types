@@ -18,3 +18,5 @@ class Metadata:
     vendor: Vendor = None
     out_of_policy: bool = None
     booker: User = None
+    service_location: str = None
+    include_breakfast: bool = None
