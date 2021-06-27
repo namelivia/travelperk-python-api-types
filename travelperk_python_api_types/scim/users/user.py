@@ -18,8 +18,8 @@ class User:
     active: str
     user_name: str
     phone_numbers: List[PhoneNumber]
-    meta: Meta
     enterprise_extension: EnterpriseExtension
     travelperk_extension: TravelperkExtension
     title: str = None
     external_id: str = None
+    meta: Meta = None
