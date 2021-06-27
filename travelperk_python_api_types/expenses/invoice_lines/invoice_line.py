@@ -22,3 +22,4 @@ class InvoiceLine:
     issuing_date: str
     due_date: str
     currency: str
+    service_location: str
