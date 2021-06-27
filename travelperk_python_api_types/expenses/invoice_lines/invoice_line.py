@@ -14,11 +14,11 @@ class InvoiceLine:
     tax_regime: str
     total_amount: str
     metadata: Metadata
-    invoice_serial_number: str
-    profile_id: str
-    profile_name: str
-    invoice_mode: str
-    invoice_status: str
-    issuing_date: str
-    due_date: str
-    currency: str
+    invoice_serial_number: str = None
+    profile_id: str = None
+    profile_name: str = None
+    invoice_mode: str = None
+    invoice_status: str = None
+    issuing_date: str = None
+    due_date: str = None
+    currency: str = None
