@@ -3,6 +3,7 @@ from pydantic.dataclasses import dataclass
 from .invoice_profile import InvoiceProfile
 from .emergency_contact import EmergencyContact
 from .travel_document import TravelDocument
+from .approver import Approver
 
 
 @dataclass
@@ -14,3 +15,4 @@ class TravelperkExtension:
     travel_policy: str = None
     country_of_residence: str = None
     travel_documents: List[TravelDocument] = None
+    approvers: List[Approver]
