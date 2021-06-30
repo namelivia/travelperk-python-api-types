@@ -15,4 +15,4 @@ class TravelperkExtension:
     travel_policy: str = None
     country_of_residence: str = None
     travel_documents: List[TravelDocument] = None
-    approvers: List[Approver]
+    approvers: List[Approver] = None
