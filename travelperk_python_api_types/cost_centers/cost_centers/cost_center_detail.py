@@ -5,7 +5,7 @@ from .user import User
 
 @dataclass
 class CostCenterDetail:
-    id: str
+    id: int
     name: str
     archived: bool
     users: List[User]
