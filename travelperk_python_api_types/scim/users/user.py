@@ -15,7 +15,7 @@ class User:
     preferred_language: str
     id: str
     groups: List[str]
-    active: str
+    active: bool
     user_name: str
     phone_numbers: List[PhoneNumber]
     enterprise_extension: EnterpriseExtension
