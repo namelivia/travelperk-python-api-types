@@ -20,6 +20,7 @@ class TestTravelsafe:
     def test_travelsafe_entities_are_buildable(self):
         summary = Summary(
             **{
+                "id": "872aca1b-04ca-47d2-83d8-493b4c7b6148",
                 "summary": "While traveling in Spain you will be required to follow the guidelines introduced by the local government. These regulations are based on risk levels and aimed at improving your safety.",
                 "details": "",
                 "risk_level": {

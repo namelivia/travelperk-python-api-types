@@ -8,6 +8,7 @@ from travelperk_python_api_types.travelsafe.info_source import InfoSource
 
 @dataclass
 class Summary:
+    id: str
     summary: str
     details: str
     risk_level: RiskLevel
