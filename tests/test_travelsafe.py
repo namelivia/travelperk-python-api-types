@@ -84,6 +84,7 @@ class TestTravelsafe:
     def test_restrictions_entities_are_buildable(self):
         restriction = Restriction(
             **{
+                "id": "e7975c43-b098-4530-ad3e-59615b8572ac",
                 "origin": {"name": "France", "type": "country", "country_code": "FR"},
                 "destination": {
                     "name": "Spain",
