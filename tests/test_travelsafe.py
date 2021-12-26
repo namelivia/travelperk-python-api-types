@@ -109,6 +109,7 @@ class TestTravelsafe:
                         "details": "Travelers arriving into Spain are required to go into quarantine",
                         "start_date": "2020-10-02",
                         "end_date": "2020-10-18",
+                        "vaccinated_travelers_exempted": True,
                         "documents": [
                             {
                                 "name": "FCS form",
