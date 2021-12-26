@@ -12,4 +12,5 @@ class Requirement:
     details: str
     start_date: str
     documents: List[Document]
+    vaccinated_travelers_exempted: bool
     end_date: str = None
