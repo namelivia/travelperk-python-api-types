@@ -92,6 +92,7 @@ class TestTravelsafe:
                     "type": "country",
                     "country_code": "ES",
                 },
+                "authorized_travelers": ["travelers"],
                 "authorization_status": "restricted",
                 "summary": "Travelling from France to Spain is restricted",
                 "details": "Only business related travel is allowed.",

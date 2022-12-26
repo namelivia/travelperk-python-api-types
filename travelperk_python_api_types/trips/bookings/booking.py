@@ -1,6 +1,6 @@
 from typing import List
 from pydantic.dataclasses import dataclass
-from .location import Location
+from travelperk_python_api_types.trips.location import Location
 from .reference import Reference
 from .leg import Leg
 
@@ -16,4 +16,5 @@ class Booking:
     trip_id: str
     references: List[Reference]
     location: Location = None
+    drop_off_location: Location = None
     legs: List[Leg] = None

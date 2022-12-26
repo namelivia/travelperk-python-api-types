@@ -2,7 +2,7 @@ from travelperk_python_api_types.trips.trips.trips import Trips
 from travelperk_python_api_types.trips.trips.trip import Trip
 from travelperk_python_api_types.trips.bookings.bookings import Bookings
 from travelperk_python_api_types.trips.bookings.booking import Booking
-from travelperk_python_api_types.trips.bookings.location import Location
+from travelperk_python_api_types.trips.location import Location
 from travelperk_python_api_types.trips.bookings.reference import Reference
 from travelperk_python_api_types.trips.bookings.leg import Leg
 from travelperk_python_api_types.trips.bookings.segment import Segment
@@ -17,6 +17,7 @@ class TestTrips:
                 "trips": [
                     {
                         "id": "172",
+                        "booker_id": "172",
                         "trip_name": "The Great Voyage",
                         "start": "2020-11-20T00:00:00",
                         "end": "2020-11-25T00:00:00",
@@ -25,6 +26,7 @@ class TestTrips:
                     },
                     {
                         "id": "205",
+                        "booker_id": "205",
                         "trip_name": "Road trip Barcelona",
                         "start": "2020-09-25T10:00:00+00:00",
                         "end": "2020-09-26T10:00:00+00:00",
@@ -54,6 +56,8 @@ class TestTrips:
                         "trip_id": "51",
                         "references": [{"type": "PNR", "value": "HNTCEBSMPO"}],
                         "location": {
+                            "name": "Test location",
+                            "address": "",
                             "latitude": "59.5468062",
                             "longitude": "113.9913155",
                             "iata_code": None,
@@ -64,6 +68,8 @@ class TestTrips:
                                     {
                                         "origin": {
                                             "location": {
+                                                "name": "",
+                                                "address": "",
                                                 "latitude": "85.5975436",
                                                 "longitude": "18.7959996",
                                                 "iata_code": "UYM",
@@ -72,6 +78,8 @@ class TestTrips:
                                         },
                                         "destination": {
                                             "location": {
+                                                "name": "",
+                                                "address": "",
                                                 "latitude": "-54.3854772",
                                                 "longitude": "81.6402173",
                                                 "iata_code": "EKD",
@@ -83,6 +91,8 @@ class TestTrips:
                                     {
                                         "origin": {
                                             "location": {
+                                                "name": "",
+                                                "address": "",
                                                 "latitude": "67.1291014",
                                                 "longitude": "21.1347543",
                                                 "iata_code": "IWP",
@@ -91,6 +101,8 @@ class TestTrips:
                                         },
                                         "destination": {
                                             "location": {
+                                                "name": "",
+                                                "address": "",
                                                 "latitude": "8.6677113",
                                                 "longitude": "-13.9691879",
                                                 "iata_code": "TMQ",
@@ -106,6 +118,8 @@ class TestTrips:
                                     {
                                         "origin": {
                                             "location": {
+                                                "name": "",
+                                                "address": "",
                                                 "latitude": "23.5841460",
                                                 "longitude": "-141.9148137",
                                                 "iata_code": "UJH",
@@ -114,6 +128,8 @@ class TestTrips:
                                         },
                                         "destination": {
                                             "location": {
+                                                "name": "",
+                                                "address": "",
                                                 "latitude": "-6.0933315",
                                                 "longitude": "-7.6775088",
                                                 "iata_code": "ZVO",
@@ -125,6 +141,8 @@ class TestTrips:
                                     {
                                         "origin": {
                                             "location": {
+                                                "name": "",
+                                                "address": "",
                                                 "latitude": "78.4132615",
                                                 "longitude": "-156.7342795",
                                                 "iata_code": "OJR",
@@ -133,6 +151,8 @@ class TestTrips:
                                         },
                                         "destination": {
                                             "location": {
+                                                "name": "",
+                                                "address": "",
                                                 "latitude": "-44.6617225",
                                                 "longitude": "163.2773819",
                                                 "iata_code": "YNX",

@@ -17,4 +17,5 @@ class Restriction:
     updated_at: str
     requirements: List[Requirement]
     info_source: InfoSource
+    authorized_travelers: List[str]
     end_date: str = None
